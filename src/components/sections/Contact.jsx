@@ -3,8 +3,8 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 import { Mail, Github, Linkedin } from "lucide-react";
 
-export const Contact = () => {
-  const [formData, setFormData] = useState({
+function Contact() {
+   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
@@ -127,4 +127,6 @@ export const Contact = () => {
       </RevealOnScroll>
     </section>
   );
-};
+}
+
+export default Contact

@@ -8,6 +8,8 @@ import { Home } from "./components/sections/Home.jsx";
 import { About } from "./components/sections/About.jsx";
 import { Projects } from "./components/sections/Projects.jsx";
 import NavBar from "./components/NavBar.jsx";
+import Contact from "./components/sections/Contact.jsx"
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
