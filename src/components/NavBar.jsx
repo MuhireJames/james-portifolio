@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+
 function NavBar({ menuOpen, setMenuOpen }) {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -58,5 +59,4 @@ function NavBar({ menuOpen, setMenuOpen }) {
     </nav>
   );
 }
-
 export default NavBar;
